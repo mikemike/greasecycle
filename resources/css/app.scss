@@ -148,10 +148,10 @@ section:nth-child(odd){
 }
 section:nth-child(2), section:nth-child(5), section:nth-child(7){
     background-color: $gray;
-    background: linear-gradient(180deg, $gray,rgb(220,220,220));
-    background: -moz-linear-gradient(180deg, $gray,rgb(220,220,220));
-    background: -ms-linear-gradient(180deg, $gray,rgb(220,220,220));
-    background: -o-linear-gradient(180deg, $gray,rgb(220,220,220));
+    background: linear-gradient(180deg, $gray,rgb(235,235,235));
+    background: -moz-linear-gradient(180deg, $gray,rgb(235,235,235));
+    background: -ms-linear-gradient(180deg, $gray,rgb(235,235,235));
+    background: -o-linear-gradient(180deg, $gray,rgb(235,235,235));
 }
 .inr-content-wrap > .inr-section{
     display: flex;
@@ -487,7 +487,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
     font-weight:300;
     width:88%;
     max-width:900px;
-    font-size:18px;
+    font-size:20px;
     line-height:1.4;
     letter-spacing:0.5px;
 }
@@ -717,7 +717,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
 
 @media only screen and (max-width: 760px) {
     _::-webkit-full-page-media, _:future, :root .safari_only {
-        padding-bottom: 65px; //resize
+        padding-bottom: 75px; //resize
     }
     h1, h2,h3,h4,h4{
         letter-spacing:1px;
