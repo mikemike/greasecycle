@@ -29,7 +29,7 @@
         <div class="header-section">
             <div class="wrap-start algn-cntr">
                 <img src="{{asset('/images/grease-cycle-icon-2.svg')}}" alt="Logo" height="60px" style="margin-right:10px;">
-                <div class="wrap-start algn-cntr">
+                <div class="wrap-start algn-cntr title-name-hd-dv">
                     <h1 class="title-name" style="color:#2FA008;font-size:20px;letter-spacing:1px;">GREASE</h1>
                     <h1 class="title-name" style="font-size:20px;letter-spacing:1px;">CYCLE</h1>
                 </div>
@@ -59,6 +59,12 @@
 </header>
 <div class="body-content-wrap">
         @yield('content')
+</div>
+<div class="mobile-links-nav">
+    <a href="/#cotact"><img src="{{asset('/images/phone-alt.svg')}}" height="30px" alt="phone button"/></a>
+    <a href="/#fog"><img src="{{asset('/images/fog-alt.svg')}}" height="30px" alt="Grease Pod button"/></a>
+    <a href="/#pricing"><img src="{{asset('/images/price-alt.svg')}}" height="30px" alt="price button"/></a>
+    <a href="/#about"><img src="{{asset('/images/about-alt.svg')}}" height="30px" alt="about us button"/></a>
 </div>
 <footer class="algn-cntr">
     <div class="outr-content-wrap">

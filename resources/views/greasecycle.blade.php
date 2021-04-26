@@ -6,12 +6,12 @@
            <div class="inr-content-wrap">
 {{--               <img src="{{asset('images/GreaseCycleStatment.jpg')}}" height="400px">--}}
                <div style="width:30%;z-index:100;height:550px;">
-                   <div class="wrap-start" style="margin-top:40px;">
+                   <div class="wrap-start ldnr-cnt-dv">
                        <h1 class="title-name" style="color:#2FA008">GREASE</h1>
                        <h1 class="title-name">CYCLE</h1>
                    </div>
                    <h5 class="sub-head">Grease Traps</h5>
-                   <p class="title-para">Providing Bespoke Grease Trap Solutions For <br>Commercial Kitchens.</p>
+                   <p class="title-para">Providing Fully Managed, Bespoke Grease Trap Solutions For Commercial Kitchens.</p>
                    <a href="/#contact"><button class="act-btn">Book a Free Quote</button></a>
                </div>
 {{--               <div id="vid-clip-wrap" class="algn-btm">--}}

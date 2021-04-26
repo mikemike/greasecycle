@@ -5,7 +5,7 @@
         <div class="outr-content-wrap">
             <div class="inr-content-wrap">
                                <div style="width:30%;z-index:100;">
-                                   <div class="wrap-start algn-cntr" style="margin-top:40px;">
+                                   <div class="wrap-start algn-cntr ldnr-cnt-dv">
                                        <h1 class="title-name" style="color:#2FA008">GREASE</h1>
                                        <h1 class="title-name">CYCLE</h1>
                                    </div>

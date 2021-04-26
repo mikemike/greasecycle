@@ -661,6 +661,24 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
         background-color:rgb(240,240,240);
     }
 }
+.ldnr-cnt-dv{
+    margin-top:40px;
+}
+.mobile-links-nav{
+    display: none;
+    position: fixed;
+    top:90vh;
+    width:100%;
+    z-index:1000;
+    border-top:solid 1px rgb(240,240,240);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    background-color:white;
+    height:10vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 @media only screen and (max-width: 900px) {
     .inr-section{
@@ -668,15 +686,15 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
     }
     .section-para{
         width:95%;
-        font-size:18px;
+        font-size:19px;
     }
 }
-@media only screen and (max-width: 700px) {
-    .title-name{
+@media only screen and (max-width: 760px) {
+    .title-name-hd-dv{
         display: none;
     }
     .title-para{
-        font-size:21px;
+        font-size:22px;
         min-width:550px;
         width:100%;
     }
@@ -684,21 +702,46 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
         letter-spacing:1px;
         font-size:28px;
     }
+    .section-para{
+        width:98%;
+        font-size:18px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .page-links{
+        display:none;
+    }
+    .mobile-links-nav{
+        display:flex;
+    }
 }
 @media only screen and (max-width: 550px) {
+    .title-name{
+        font-size:37px;
+    }
     .title-para{
-        font-size:19px;
+        font-size:21px;
         min-width:450px;
         width:100%;
     }
-    .section-para{
-        font-size:17px;
+    .cap-col-rec{
+        letter-spacing:0.5px;
+        font-size:26px;
+    }
+    .ldnr-cnt-dv{
+        margin-top:25px;
+    }
+    .head-eng-a-dv{
+        display: none;
     }
 }
 @media only screen and (max-width: 450px) {
     .title-para{
-        font-size:19px;
+        font-size:20px;
         min-width:300px;
+        width:100%;
+    }
+    .act-btn{
         width:100%;
     }
 }
