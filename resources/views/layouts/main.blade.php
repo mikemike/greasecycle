@@ -72,7 +72,7 @@
             <div class="container algn-cntr">
                 <img src="{{asset('/images/grease-cycle-logo-alt.svg')}}" alt="Logo" height="50px" style="margin-bottom:10px;">
                 <p style="color: white; letter-spacing:0px;padding-bottom:10px;">{{ now()->year }} by GreaseCycle. All rights reserved.</p>
-                <small style="color: white;">GreaseCycle | FOG Trap | Grease Managment | FOG | Fat Oil &amp; Grease Interceptor | FOG Interceptor</small>
+                <small style="color: white;padding-bottom:25px;">GreaseCycle | FOG Trap | Grease Managment | FOG | Fat Oil &amp; Grease Interceptor | FOG Interceptor</small>
             </div>
         </div>
     </div>
@@ -89,15 +89,6 @@
     function showHeaderBar(){
         document.getElementById('headerbar').style.top = "0px";
     }
-
-    var mob_btns = document.getElementsByClassName('mobile-btn-lnks');
-
-    mob_btns.map(btn, function(btn){
-        btn.addEventListener('click', function(btn){
-            let lnk = btn.attr('data-mob-link');
-            window.location.href = lnk;
-        });
-    });
 
     //HEADER BAR HIDE ON SCROLL
     document.addEventListener('scroll', function(e) {
