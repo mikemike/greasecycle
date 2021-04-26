@@ -417,7 +417,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 }
 
 .page-link {
-  font-family: "Product Sans", sans-serif;
+  font-family: "Raleway", "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: 0px;
@@ -483,7 +483,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   margin: 0;
   padding: 7px;
   border-radius: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
