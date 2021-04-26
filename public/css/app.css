@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600&display=swap|Prosto+One:400|Lato|Cambay|Rajdhani|Product+Sans:400|Lato:300,400,500,600,700|Nunito|Manjari|Sulphur+Point|Oxanium|Gruppo|Montserrat|Muli|Nanum+Gothic|Poppins:200,300,400,500,600|Quicksand|Comfortaa:600|Maven+Pro|Cabin);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600&display=swap|Prosto+One:400|Lato|Roboto:200,300,400|Cambay|Rajdhani|Product+Sans:400|Lato:300,400,500,600,700|Nunito|Manjari|Sulphur+Point|Oxanium|Gruppo|Montserrat|Muli|Nanum+Gothic|Poppins:200,300,400,500,600|Quicksand|Comfortaa:600|Maven+Pro|Cabin);
 html {
   margin: 0;
   padding: 0;
@@ -440,7 +440,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 }
 
 .section-header {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-top: 20px;
   font-weight: 400;
   color: #19A856;
@@ -448,11 +448,11 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 }
 
 .title-para {
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   margin-top: 20px;
   font-size: 23px;
-  line-height: 1.7;
+  line-height: 1.6;
   letter-spacing: 0.5px;
   width: 100%;
   min-width: 650px;
@@ -522,8 +522,8 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 
 .sub-head {
   font-size: 30px;
-  font-weight: 500;
-  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-family: "Raleway", "Roboto", sans-serif;
   margin-top: 5px;
   white-space: nowrap;
   letter-spacing: 1px;
@@ -532,15 +532,16 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 .section-para {
   font-family: "Roboto", sans-serif;
   margin-top: 35px;
-  font-weight: 200;
+  font-weight: 300;
   width: 88%;
   max-width: 900px;
   font-size: 18px;
   line-height: 1.4;
-  letter-spacing: 0px;
+  letter-spacing: 0.5px;
 }
 
 .cap-col-rec {
+  font-family: "Raleway", sans-serif;
   font-size: 45px;
   letter-spacing: 2px;
   font-weight: 500;
@@ -787,6 +788,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   .section-para {
     width: 98%;
     font-size: 18px;
+    letter-spacing: 0px;
   }
 
   .price-p {
