@@ -787,6 +787,10 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   .price-p {
     font-size: 30px;
   }
+
+  .ldnr-cnt-dv {
+    margin-top: 25px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .page-links {
@@ -807,6 +811,10 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
     letter-spacing: 1px;
   }
 
+  .ldnr-cnt-dv {
+    margin-top: 15px;
+  }
+
   .title-para {
     font-size: 21px;
     min-width: 450px;
@@ -816,10 +824,6 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   .cap-col-rec {
     letter-spacing: 0.5px;
     font-size: 26px;
-  }
-
-  .ldnr-cnt-dv {
-    margin-top: 25px;
   }
 
   .head-eng-a-dv {
