@@ -502,12 +502,15 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
 }
 .act-btn{
     margin:60px 0;
-    width:200px;
+    width:100%;
+    min-width:300px;
+    max-width:350px;
     padding:15px 20px;
     border:solid 1px $brand-green;
     background: transparent;
     color:$brand-green;
     outline:none;
+    text-align: center;
 }
 .act-btn:hover{
     border-color: #2FA008;
@@ -742,6 +745,6 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
         width:100%;
     }
     .act-btn{
-        width:100%;
+        max-width:350px;
     }
 }

@@ -4,7 +4,6 @@
    <section id="home" class="wrap-start">
        <div class="outr-content-wrap">
            <div class="inr-content-wrap">
-{{--               <img src="{{asset('images/GreaseCycleStatment.jpg')}}" height="400px">--}}
                <div style="width:30%;z-index:100;height:550px;">
                    <div class="wrap-start ldnr-cnt-dv">
                        <h1 class="title-name" style="color:#2FA008">GREASE</h1>
@@ -13,12 +12,6 @@
                    <h5 class="sub-head">Grease Traps</h5>
                    <p class="title-para">Providing Fully Managed, Bespoke Grease Trap Solutions For Commercial Kitchens.</p>
                    <a href="/#contact"><button class="act-btn">Book a Free Quote</button></a>
-               </div>
-{{--               <div id="vid-clip-wrap" class="algn-btm">--}}
-{{--                   <!--INTRO VIDEO CLIP-->--}}
-{{--                   <p style="z-index:1000;margin-top:300px;margin-right:300px;">short intro video clip</p>--}}
-{{--                   <video src="" alt="grease cycle at work video clip"></video>--}}
-{{--               </div>--}}
            </div>
        </div>
    </section>
@@ -65,7 +58,7 @@
                        <p class="cap-col-rec">Collect.</p>
                        <p class="cap-col-rec">Recycle.</p>
                    </div>
-                   <a href="/#contact"><button class="act-btn" type="button">Book a Free Quote</button></a>
+                   <a href="/#contact" class="act-btn">Book a Free Quote</a>
                </div>
            </div>
        </div>
@@ -100,7 +93,7 @@
                    <p style="margin-top:30px; text-align: center;">All of this for an affordable monthly fee starting from as little as:</p>
                    <p style="font-size:40px;margin-top:25px;color:#10912B;">£69.99 per month</p>
                    <small style="margin-top:5px;font-style: italic;">(Excl. VAT)</small>
-                   <a href="/#contact"><button class="act-btn" type="button">Book a Free Quote</button></a>
+                   <a href="/#contact" class="act-btn">Book a Free Quote</a>
                </div>
            </div>
        </div>

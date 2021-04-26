@@ -61,7 +61,7 @@
         @yield('content')
 </div>
 <div class="mobile-links-nav">
-    <a href="/#cotact"><img src="{{asset('/images/phone-alt.svg')}}" height="30px" alt="phone button"/></a>
+    <a href="/#contact"><img src="{{asset('/images/phone-alt.svg')}}" height="30px" alt="phone button"/></a>
     <a href="/#fog"><img src="{{asset('/images/fog-alt.svg')}}" height="30px" alt="Grease Pod button"/></a>
     <a href="/#pricing"><img src="{{asset('/images/price-alt.svg')}}" height="30px" alt="price button"/></a>
     <a href="/#about"><img src="{{asset('/images/about-alt.svg')}}" height="30px" alt="about us button"/></a>
