@@ -3,6 +3,7 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 h1 {
@@ -554,9 +556,9 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 
 .act-btn {
   margin: 60px 0;
-  width: 100%;
-  min-width: 300px;
-  max-width: 350px;
+  width: 98%;
+  min-width: 330px;
+  max-width: 400px;
   padding: 15px 20px;
   border: solid 1px #19A856;
   background: transparent;
@@ -678,6 +680,12 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   background-color: #f0f0f0;
 }
 
+.price-p {
+  font-size: 40px;
+  margin-top: 25px;
+  color: #10912B;
+}
+
 .head-eng-a-dv {
   z-index: 20;
   border-radius: 20px;
@@ -753,9 +761,17 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
     font-size: 28px;
   }
 
+  .section-header {
+    font-size: 31px;
+  }
+
   .section-para {
     width: 98%;
     font-size: 18px;
+  }
+
+  .price-p {
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -765,6 +781,10 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 
   .mobile-links-nav {
     display: flex;
+  }
+
+  .footer > div > div > div {
+    padding-bottom: 200px;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -796,9 +816,5 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
     font-size: 20px;
     min-width: 300px;
     width: 100%;
-  }
-
-  .act-btn {
-    max-width: 350px;
   }
 }

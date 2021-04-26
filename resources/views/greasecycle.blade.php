@@ -72,7 +72,7 @@
                        GreaseCycle provide a hassle free grease management service for commercial kitchen.
                        We provide a hassle free service from installation through to monthly replacements.
                    </p>
-                   <p class="section-para" style="margin-top:15px;width:70%;">Grease traps are now required by law under <a class="display-link" style="font-style: italic;" href="https://www.legislation.gov.uk/ukpga/1991/56/section/111" target="_blank">section 111 of the Water Industry Act.</a> and our product &amp; services protect you from large waste water fines &amp; business delays.</p>
+                   <p class="section-para" style="margin-top:15px;">Grease traps are now required by law under <a class="display-link" style="font-style: italic;" href="https://www.legislation.gov.uk/ukpga/1991/56/section/111" target="_blank">section 111 of the Water Industry Act.</a> and our product &amp; services protect you from large waste water fines &amp; business delays.</p>
                    <p style="margin-top:30px;">What you get:</p>
                    <ul style="width:70%">
                        <li>Free Installation</li>
@@ -91,7 +91,7 @@
                <div class="container algn-cntr">
                    <h3 class="section-header">Pricing</h3>
                    <p style="margin-top:30px; text-align: center;">All of this for an affordable monthly fee starting from as little as:</p>
-                   <p style="font-size:40px;margin-top:25px;color:#10912B;">£69.99 per month</p>
+                   <p class="price-p">£69.99 per month</p>
                    <small style="margin-top:5px;font-style: italic;">(Excl. VAT)</small>
                    <a href="/#contact" class="act-btn">Book a Free Quote</a>
                </div>
