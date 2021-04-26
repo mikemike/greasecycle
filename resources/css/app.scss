@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600&display=swap|Prosto+One:400|Lato|Roboto:200,300,400|Cambay|Rajdhani|Product+Sans:400|Lato:300,400,500,600,700|Nunito|Manjari|Sulphur+Point|Oxanium|Gruppo|Montserrat|Muli|Nanum+Gothic|Poppins:200,300,400,500,600|Quicksand|Comfortaa:600|Maven+Pro|Cabin);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600&display=swap|Lato:300,400,500,600,700|Poppins:400,500);
 @import 'variables';
 
 html{
@@ -448,7 +448,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
     }
 
     &-actv{
-        font-family:'Nunito',sans-serif;
+        font-family:'Raleway',sans-serif;
         font-weight: 400;
         border:none;
         border-bottom:solid 2px  $brand-green;
