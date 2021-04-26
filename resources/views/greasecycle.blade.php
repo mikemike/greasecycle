@@ -89,7 +89,7 @@
        <div class="outr-content-wrap">
            <div class="inr-content-wrap">
                <div class="container algn-cntr">
-                   <h3 class="section-header">Pricing</h3>
+                   <h2 class="section-header">Pricing</h2>
                    <p style="margin-top:30px; text-align: center;">All of this for an affordable monthly fee starting from as little as:</p>
                    <p class="price-p">£69.99 per month</p>
                    <small style="margin-top:5px;font-style: italic;">(Excl. VAT)</small>
