@@ -30,8 +30,8 @@
             <div class="wrap-start algn-cntr">
                 <img src="{{asset('/images/grease-cycle-icon-2.svg')}}" alt="Logo" height="60px" style="margin-right:10px;">
                 <div class="wrap-start algn-cntr title-name-hd-dv">
-                    <h1 class="title-name" style="color:#2FA008;font-size:20px;letter-spacing:1px;">GREASE</h1>
-                    <h1 class="title-name" style="font-size:20px;letter-spacing:1px;">CYCLE</h1>
+                    <h1 class="title-name" style="color:#2FA008;font-size:25px;letter-spacing:1px;">GREASE</h1>
+                    <h1 class="title-name" style="font-size:25px;letter-spacing:1px;">CYCLE</h1>
                 </div>
             </div>
         </div>
