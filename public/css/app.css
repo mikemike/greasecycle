@@ -740,7 +740,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 }
 
 .mobile-btn-lnks {
-  padding: 40px 70px;
+  padding: 50px 70px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -766,7 +766,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 }
 @media only screen and (max-width: 760px) {
   _::-webkit-full-page-media, _:future, :root .safari_only {
-    padding-bottom: 75px;
+    padding-bottom: 100px;
   }
 
   h1, h2, h3, h4, h4 {
@@ -825,7 +825,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   }
 
   .mobile-btn-lnks {
-    padding: 40px 50px;
+    padding: 45px 50px;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -855,7 +855,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   }
 
   .mobile-btn-lnks {
-    padding: 40px 40px;
+    padding: 45px 45px;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -866,6 +866,6 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   }
 
   .mobile-btn-lnks {
-    padding: 40px 30px;
+    padding: 45px 35px;
   }
 }
