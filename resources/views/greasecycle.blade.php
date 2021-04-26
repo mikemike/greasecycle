@@ -4,7 +4,7 @@
    <section id="home" class="wrap-start">
        <div class="outr-content-wrap">
            <div class="inr-content-wrap">
-               <div style="width:30%;z-index:100;height:550px;">
+               <div style="z-index:100;height:550px;">
                    <div class="wrap-start ldnr-cnt-dv">
                        <h1 class="title-name" style="color:#2FA008">GREASE</h1>
                        <h1 class="title-name">CYCLE</h1>
@@ -118,11 +118,11 @@
                        @endif
                        <div class="form-inpt-sec">
                            <label>Full Name<small>*</small></label>
-                           <input id="contact-name" type="text" name="name" placeholder="Name" required/>
+                           <input id="contact-name" type="text" name="name" placeholder="Full Name" required/>
                        </div>
                        <div class="form-inpt-sec">
                            <label>Company Name<small>*</small></label>
-                           <input id="contact-company" type="text" name="company" placeholder="Company" required/>
+                           <input id="contact-company" type="text" name="company" placeholder="Company Name" required/>
                        </div>
                        <div class="form-inpt-sec">
                            <label>Email <small>*</small></label>

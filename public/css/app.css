@@ -457,7 +457,8 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   line-height: 1.6;
   letter-spacing: 0.5px;
   width: 100%;
-  min-width: 650px;
+  max-width: 650px;
+  min-width: 600px;
 }
 
 #vid-clip-wrap {
@@ -560,9 +561,9 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 
 .act-btn {
   margin: 60px 0;
-  width: 93%;
-  min-width: 330px;
-  max-width: 400px;
+  width: 98%;
+  min-width: 300px;
+  max-width: 350px;
   padding: 15px 20px;
   border: solid 1px #19A856;
   background: transparent;
@@ -826,6 +827,10 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 
   .mobile-btn-lnks {
     padding: 45px 50px;
+  }
+
+  .act-btn {
+    max-width: 500px;
   }
 }
 @media only screen and (max-width: 550px) {
