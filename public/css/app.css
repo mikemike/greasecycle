@@ -739,6 +739,10 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   justify-content: space-evenly;
 }
 
+.mobile-btn-lnks {
+  padding: 40px 70px;
+}
+
 @media only screen and (max-width: 900px) {
   .inr-section {
     width: 100%;
@@ -819,6 +823,10 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   .footer > div > div > div {
     padding-bottom: 200px;
   }
+
+  .mobile-btn-lnks {
+    padding: 40px 50px;
+  }
 }
 @media only screen and (max-width: 550px) {
   .title-name {
@@ -845,11 +853,19 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   .head-eng-a-dv {
     display: none;
   }
+
+  .mobile-btn-lnks {
+    padding: 40px 40px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .title-para {
     font-size: 20px;
     min-width: 300px;
     width: 100%;
+  }
+
+  .mobile-btn-lnks {
+    padding: 40px 30px;
   }
 }
