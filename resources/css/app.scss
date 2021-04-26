@@ -702,12 +702,12 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
         width:95%;
         font-size:19px;
     }
-}
-
-@media only screen and (max-width: 800px) {
     .title-name-hd-dv{
         display: none;
     }
+}
+
+@media only screen and (max-width: 860px) {
     .call-us-p{
         margin-top:40px;
         font-size:27px;
@@ -755,7 +755,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
         margin-top:10px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .page-links{
         display:none;
     }
