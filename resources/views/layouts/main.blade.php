@@ -61,10 +61,10 @@
         @yield('content')
 </div>
 <div class="mobile-links-nav">
-    <a href="/#contact"><img data-mob-link="/#contact" class="mobile-btn-lnks" src="{{asset('/images/phone-alt.svg')}}" height="30px" alt="phone button"/></a>
     <a href="/#fog"><img data-mob-link="/#fog"  class="mobile-btn-lnks" src="{{asset('/images/fog-alt.svg')}}" height="30px" alt="Grease Pod button"/></a>
-    <a href="/#pricing"><img data-mob-link="/#pricing" class="mobile-btn-lnks" src="{{asset('/images/price-alt.svg')}}" height="30px" alt="price button"/></a>
     <a href="/#about"><img data-mob-link="/#about" class="mobile-btn-lnks" src="{{asset('/images/about-alt.svg')}}" height="30px" alt="about us button"/></a>
+    <a href="/#pricing"><img data-mob-link="/#pricing" class="mobile-btn-lnks" src="{{asset('/images/price-alt.svg')}}" height="30px" alt="price button"/></a>
+    <a href="/#contact"><img data-mob-link="/#contact" class="mobile-btn-lnks" src="{{asset('/images/phone-alt.svg')}}" height="30px" alt="phone button"/></a>
 </div>
 <footer class="algn-cntr">
     <div class="outr-content-wrap">
