@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500&display=swap|Poppins:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500&display=swap|Poppins:300,400,500,600,700|Product+Sans:300);
 html {
   margin: 0;
   padding: 0;
@@ -395,7 +395,7 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 }
 
 .title-name {
-  font-family: "Poppins", sans-serif;
+  font-family: "Product Sans", sans-serif;
   font-size: 48px;
   font-weight: 500;
   letter-spacing: 2px;
@@ -454,11 +454,11 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   margin-top: 30px;
-  font-size: 23px;
+  font-size: 25px;
   line-height: 1.6;
   letter-spacing: 0.5px;
   width: 100%;
-  max-width: 650px;
+  max-width: 700px;
   min-width: 600px;
 }
 
@@ -526,9 +526,9 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7) {
 
 .sub-head {
   font-size: 30px;
-  font-weight: 400;
-  font-family: "Raleway", "Roboto", sans-serif;
-  margin-top: 5px;
+  font-weight: 300;
+  font-family: "Product Sans", "Roboto", sans-serif;
+  margin-top: 10px;
   white-space: nowrap;
   letter-spacing: 1px;
 }
