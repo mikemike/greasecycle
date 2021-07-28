@@ -105,7 +105,6 @@ header{
     top:0;
     transition:top 500ms;
     z-index:1000;
-    border-bottom:solid 1px rgb(240,240,240);
 }
 .head-top{
     display: flex;
@@ -165,12 +164,17 @@ section:nth-child(2), section:nth-child(5), section:nth-child(7){
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction:column;
     -ms-flex-direction:column;
     flex-direction:column;
 }
 .wrap-start, .wrap-end,.wrap-middle, .wrap-space-between, .container-row{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
