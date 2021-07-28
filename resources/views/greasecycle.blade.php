@@ -76,7 +76,7 @@
                    </ul>
                </div>
                <div id="why-sec-2" class="inr-section container wrap-middle" style="height:100%;">
-                   <img src="{{asset('/images/theproblem.jpg')}}" alt="grease trap full of grease" width="450" height="300"/>
+                   <img id="why-img" src="{{asset('/images/theproblem.jpg')}}" alt="grease trap full of grease"/>
                </div>
            </div>
        </div>

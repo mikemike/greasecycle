@@ -784,6 +784,13 @@ section:nth-child(2), section:nth-child(4), section:nth-child(6) {
 #why-sec-2{
     width:40%;
 }
+#why-img{
+    width:450px;
+    height:320px;
+    border-radius:20px;
+    overflow: hidden;
+    border: solid 3px lightgray;
+}
 
 .grid-container {
     display: grid;
