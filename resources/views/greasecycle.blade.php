@@ -59,7 +59,7 @@
    <section id="why" class="wrap-start">
        <div class="outr-content-wrap">
            <div class="inr-content-wrap ">
-               <div class="inr-section container">
+               <div id="why-sec-1" class="inr-section container">
                    <h2 class="section-header">Why GreaseCycle&trade;?</h2>
                    <p class="section-para">
                        GreaseCycle&trade; provide a hassle free grease management service for commercial kitchen.
@@ -75,7 +75,7 @@
                        <li>Environmentally Friendly - Fat, oil and grease recovered from our grease traps is recycled for biofuel in partnership with 3R Solutions (http://www.3rsolutions.co.uk/)'</li>
                    </ul>
                </div>
-               <div class="inr-section container wrap-middle" style="height:100%;">
+               <div id="why-sec-2" class="inr-section container wrap-middle" style="height:100%;">
                    <img src="{{asset('/images/theproblem.jpg')}}" alt="grease trap full of grease" width="450" height="300"/>
                </div>
            </div>
@@ -140,6 +140,29 @@
                         <button id="submit-contact-btn" type="submit">Request Callback</button>
                        <small style="margin-top:10px;">By Submitting this form you are agreeing to allow us to use and store this data. We aim to be back in contact within 3 bussiness days. Thank you.</small>
                    </form>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section id="gallery" class="wrap-start">
+       <div class="outr-content-wrap">
+           <div class="inr-content-wrap">
+               <div class="container algn-cntr">
+                   <h2 class="section-header">Gallery</h2>
+
+                   <div class="grid-container" style="padding-top:20px;width:100%;">
+                       <img class="grid-item" src="{{asset('/images/sh38hs93s8hs3s.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/8h3d89h489h89hws.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/8ed89e8389j3sjfhgg.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/90sj092js9vjajaaa.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/903hd09h89h566hdg.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/93d90390f8sasdff.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/s9j390djrfaaaaaw3.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/9jd-3940epqaloak.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/00h89he89h4ss3d.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/03890h894h5h5sd.jpg')}}">
+                   </div>
+
                </div>
            </div>
        </div>

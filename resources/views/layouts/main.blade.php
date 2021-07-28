@@ -55,6 +55,7 @@
                 <a class="page-link page-link" href="{{config('app.url')}}#why">Why Us?</a>
                 <a class="page-link page-link" href="{{config('app.url')}}#pricing">Pricing</a>
                 <a class="page-link page-link" href="{{config('app.url')}}#contact">Contact</a>
+                <a class="page-link page-link" href="{{config('app.url')}}#gallery">Gallery</a>
             </nav>
         </div>
     </div>
