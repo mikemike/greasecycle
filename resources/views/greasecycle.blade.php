@@ -15,7 +15,7 @@
                        <a href="/#contact"><button class="act-btn">Book a Free Quote</button></a>
                </div>
                <div id="land-img-sec" class="algn-cntr inr-section wrap-middle" style="height: 100%;">
-                   <img src="{{asset('/images/greasetraps.jpg')}}" alt="grease trap" height="300"/>
+                   <img src="{{asset('/images/yugsdg3yug6g5hsw.jpg')}}" alt="grease trap" height="300"/>
                </div>
            </div>
        </div>
@@ -67,7 +67,7 @@
                        We provide a hassle free service from installation through to monthly replacements and waste removal.
                    </p>
                    <p class="section-para" style="margin-top:15px;">Grease traps are now required by law under <a class="display-link" style="font-style: italic;" href="https://www.legislation.gov.uk/ukpga/1991/56/section/111" target="_blank">section 111 of the Water Industry Act.</a> and our product &amp; services protect you from large waste water fines &amp; business delays.</p>
-                   <p style="margin-top:30px;">What you get:</p>
+                   <small style="margin-top:30px;">What you get:</small>
                    <ul style="width:70%">
                        <li>Free Installation</li>
                        <li>Hassle Free - Monthly replacements and waste removal by a trained technician</li>
@@ -106,7 +106,7 @@
 
                    <form class="form form-stndrd form-all-req" style="margin-top:20px;" action="/call-back-submit" method="POST" enctype="application/x-www-form-urlencoded">
                        @csrf
-                       <h5>Request a callback</h5>
+                       <p style="margin: 20px 0px;">Request a callback</p>
                        @if(session()->has('form-success'))
                            <div class="form-resp-dv form-resp-dv-success">Successfully sent callback request.</div>
                        @endif
