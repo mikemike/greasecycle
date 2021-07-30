@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//FALLBACK ROUTE
+Route::fallback(function () {return redirect('/');});
 
 Route::get('/', function () {
     return view('greasecycle');

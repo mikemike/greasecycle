@@ -20,10 +20,11 @@
            </div>
        </div>
    </section>
-    <section id="about" class="wrap-start" style="padding-bottom:50px;">
+    <section id="about" class="wrap-start">
         <div class="outr-content-wrap">
-            <div class="inr-content-wrap" style="flex-direction: column;">
-                <div style="width:100%;" class="wrap-space-between">
+            <div class="inr-content-wrap" style="flex-direction: column;overflow: hidden;position: relative;">
+                <img id="about-img" src="{{asset('/images/uihiuhduih3h783h784.jpg')}}" alt="grease cycle office" />
+                <div style="width:100%;position: relative;" class="wrap-space-between">
                     <div class="container">
                         <div class="algn-left">
                             <h2 class="section-header">GreaseCycle&trade;</h2>
@@ -34,7 +35,7 @@
                             Our grease traps are designed and manufactured in the UK and our unique modular design ensures we can accommodate kitchens of all shapes and sizes.
                             Rather than a fit and forget approach used by most grease trap companies, GreaseCycle&trade; continue to support your business following installation by replacing the grease trap system on a monthly basis with clean sanitised modules.
                             <br><br>
-                            This ensures that your grease trap continues to work effectively without you having the hygiene risk of cleaning it out in the middle of your kitchen. The FOG captured in the modules is collected and recycled for Biofuel in partnership with 3R Solutions (http://www.3rsolutions.co.uk/) to help lower your carbon footprint and be more environmentally friendly.
+                            This ensures that your grease trap continues to work effectively without you having the hygiene risk of cleaning it out in the middle of your kitchen. The FOG captured in the modules is collected and recycled for Biofuel in partnership with 3R Solutions (<a class="display-link" href="http://www.3rsolutions.co.uk/" target="_blank">http://www.3rsolutions.co.uk/</a>) to help lower your carbon footprint and be more environmentally friendly.
                         </p>
                     </div>
                 </div>
@@ -72,7 +73,7 @@
                        <li>Hassle Free - Monthly replacements and waste removal by a trained technician</li>
                        <li>Improved Drainage - Avoid blockages and bad odours</li>
                        <li>Peace of Mind - Ongoing support to avoid potential fines</li>
-                       <li>Environmentally Friendly - Fat, oil and grease recovered from our grease traps is recycled for biofuel in partnership with 3R Solutions (http://www.3rsolutions.co.uk/)'</li>
+                       <li>Environmentally Friendly - Fat, oil and grease recovered from our grease traps is recycled for biofuel in partnership with 3R Solutions <a class="display-link" href="http://www.3rsolutions.co.uk/" target="_blank">http://www.3rsolutions.co.uk/</a></li>
                    </ul>
                </div>
                <div id="why-sec-2" class="inr-section container wrap-middle" style="height:100%;">
@@ -151,16 +152,16 @@
                    <h2 class="section-header">Gallery</h2>
 
                    <div class="grid-container" style="padding-top:20px;width:100%;">
-                       <img class="grid-item" src="{{asset('/images/sh38hs93s8hs3s.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/8h3d89h489h89hws.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/8ed89e8389j3sjfhgg.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/90sj092js9vjajaaa.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/903hd09h89h566hdg.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/93d90390f8sasdff.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/s9j390djrfaaaaaw3.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/9jd-3940epqaloak.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/00h89he89h4ss3d.jpg')}}">
-                       <img class="grid-item" src="{{asset('/images/03890h894h5h5sd.jpg')}}">
+                       <img class="grid-item" src="{{asset('/images/sh38hs93s8hs3s.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/8h3d89h489h89hws.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/8ed89e8389j3sjfhgg.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/90sj092js9vjajaaa.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/903hd09h89h566hdg.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/93d90390f8sasdff.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/s9j390djrfaaaaaw3.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/9jd-3940epqaloak.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/00h89he89h4ss3d.jpg')}}" alt="grease trap">
+                       <img class="grid-item" src="{{asset('/images/03890h894h5h5sd.jpg')}}" alt="grease trap">
                    </div>
 
                </div>
