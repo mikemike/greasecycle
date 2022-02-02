@@ -14,8 +14,13 @@
                        <p class="title-para">Bespoke Grease Trap Solutions.</p>
                        <a href="/#contact"><button class="act-btn">Book a Free Quote</button></a>
                </div>
-               <div id="land-img-sec" class="algn-cntr inr-section wrap-middle" style="height: 100%;">
-                   <img src="{{asset('/images/yugsdg3yug6g5hsw.jpg')}}" alt="grease trap" height="300"/>
+               <div id="land-lst-sec" class="algn-cntr inr-section wrap-middle" style="height: 100%;">
+                   <ul class="svg-list">
+                       <li><span><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg></span> <p class="svg-lst-p">free consultation</p></li>
+                       <li><span><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg></span> <p class="svg-lst-p">no upfront costs</p></li>
+                       <li><span><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg></span> <p class="svg-lst-p">monthly replacement Incl. Waste removal</p></li>
+                       <li><span><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg></span> <p class="svg-lst-p">low monthly fee</p></li>
+                   </ul>
                </div>
            </div>
        </div>
