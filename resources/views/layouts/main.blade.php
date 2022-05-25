@@ -46,7 +46,7 @@
                 </a>
                 <a href="/#contact" class="head-cnt-dv wrap-middle algn-cntr">
                     <img src="{{asset('images/phone.svg')}}" alt="phone icon" height="25px" style="margin-right:5px;"/>
-                    <p style="font-family: 'Product Sans';color:white;">07384280662</p>
+                    <p style="font-family: 'Product Sans';color:white;">07949505451</p>
                 </a>
             </div>
             <nav class="page-links wrap-end algn-base">

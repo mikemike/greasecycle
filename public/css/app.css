@@ -600,7 +600,6 @@ section:nth-child(2), section:nth-child(4), section:nth-child(6) {
 }
 
 .act-btn {
-  margin: 50px 0;
   width: 97%;
   min-width: 300px;
   max-width: 350px;
@@ -826,6 +825,7 @@ section:nth-child(2), section:nth-child(4), section:nth-child(6) {
 }
 
 .svg-list{
+    margin-top:-10px;
     list-style: none;
     list-style-type: none;
 }

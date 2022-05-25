@@ -13,9 +13,9 @@ class ContactFormController extends Controller
     public function requestCallBack(CallbackFormRequest $request){
         try{
             Mail::to('matthew@greasecycle.co.uk')->send(new CallbackRequest($request->all()));
-            return redirect('/#contact', 302)->with('form-success', true);
+            return redirect(env(APP_URL) . '/#contact', 302)->with('form-success', true);
         }catch(\Exception $e){
-            return redirect('/#contact', 302)->with('form-failed', true);
+            return redirect(env(APP_URL) . '/#contact', 302)->with('form-failed', true);
         }
     }
 }
