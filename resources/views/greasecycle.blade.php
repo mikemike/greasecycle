@@ -3,8 +3,8 @@
 @section('content')
    <section id="home" class="wrap-start">
        <div class="outr-content-wrap">
-           <div class="inr-content-wrap" style="height:500px;">
-               <div class="algn-cntr inr-section" style="z-index:100;">
+           <div class="inr-content-wrap" id="top-parent">
+               <div id="left-top-sec" class="algn-cntr inr-section" style="z-index:100;">
                    <img src="{{asset('/images/grease-cycle-icon-2.svg')}}" alt="Grease Cycle Logo" height="120">
                        <div class="wrap-middle ldnr-cnt-dv">
                            <h1 class="title-name" style="color:#2FA008">GREASE</h1>
@@ -14,11 +14,11 @@
                        <p class="title-para">Bespoke Grease Trap Solutions.</p>
                </div>
                <div id="land-lst-sec" class="algn-cntr inr-section wrap-middle" style="height: 100%;">
-                   <ul class="svg-list">
-                       <li><span><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg></span> <p class="svg-lst-p">free consultation</p></li>
-                       <li><span><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg></span> <p class="svg-lst-p">no upfront costs</p></li>
-                       <li><span><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg></span> <p class="svg-lst-p">monthly replacement Incl. Waste removal</p></li>
-                       <li><span><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg></span> <p class="svg-lst-p">low monthly fee</p></li>
+                   <ul class="svg-list top-menu">
+                       <li><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg> <p class="svg-lst-p">free consultation</p></li>
+                       <li><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg> <p class="svg-lst-p">no upfront costs</p></li>
+                       <li><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg> <p class="svg-lst-p">monthly replacement Incl. Waste removal</p></li>
+                       <li><svg xmlns="http://www.w3.org/2000/svg" height="54px" viewBox="0 0 24 24" width="44px" fill="#19A856"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"/></svg> <p class="svg-lst-p">low monthly fee</p></li>
                    </ul>
                    <a href="/#contact"><button class="act-btn">Book Now</button></a>
                </div>
@@ -28,7 +28,6 @@
     <section id="about" class="wrap-start">
         <div class="outr-content-wrap">
             <div class="inr-content-wrap" style="flex-direction: column;overflow: hidden;position: relative;">
-                <img id="about-img" src="{{asset('/images/20211123_124930.jpg')}}" alt="grease cycle office" />
                 <div style="width:100%;position: relative;" class="wrap-space-between">
                     <div class="container">
                         <div class="algn-left">
@@ -65,7 +64,6 @@
    <section id="why" class="wrap-start">
        <div class="outr-content-wrap">
            <div class="inr-content-wrap" style="flex-direction: column;overflow: hidden;position: relative;">
-               <img id="about-img" src="{{asset('/images/8h3d89h489h89hws.jpg')}}" alt="grease cycle office" />
                <div style="width:100%;position: relative;" class="wrap-space-between">
                    <div class="container">
                        <div class="algn-left">
@@ -163,16 +161,18 @@
                    <h2 class="section-header">Gallery</h2>
 
                    <div class="grid-container" style="padding-top:20px;width:100%;">
-                       <img class="grid-item" width="500" src="{{asset('/images/sh38hs93s8hs3s.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/8h3d89h489h89hws.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/8ed89e8389j3sjfhgg.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/90sj092js9vjajaaa.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/903hd09h89h566hdg.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/93d90390f8sasdff.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/s9j390djrfaaaaaw3.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/9jd-3940epqaloak.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/00h89he89h4ss3d.jpg')}}" alt="grease trap">
-                       <img class="grid-item" width="500" src="{{asset('/images/03890h894h5h5sd.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/sh38hs93s8hs3s.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/8h3d89h489h89hws.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/8ed89e8389j3sjfhgg.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/90sj092js9vjajaaa.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/903hd09h89h566hdg.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/93d90390f8sasdff.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/s9j390djrfaaaaaw3.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/9jd-3940epqaloak.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/00h89he89h4ss3d.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/03890h894h5h5sd.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="300" src="{{asset('/images/20211123_124930.jpg')}}" alt="grease cycle office">
+                       <img class="grid-item" width="300" src="{{asset('/images/8h3d89h489h89hws.jpg')}}" alt="grease cycle office">
                    </div>
 
                </div>
