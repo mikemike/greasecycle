@@ -109,7 +109,11 @@
                    <div class="algn-cntr">
                        <h2 class="section-header">Contact</h2>
                    </div>
-                   <p class="algn-cntr call-us-p">Call us on 07949505451 <br><small>or request a call back below.</small></p>
+                   <p class="algn-cntr call-us-p text-center" style="text-align: center">
+                       Call us on<br> 07949505451 <br>
+                       or email <br><a href="mailto:info@greasecycle.co.uk">info@greasecycle.co.uk</a>
+                    </p>
+                   {{--
                    <form class="form form-stndrd form-all-req" style="margin-top:20px;" action="/call-back-submit" method="POST" enctype="application/x-www-form-urlencoded">
                        @csrf
                        <p style="margin: 20px 0px;">Request a callback</p>
@@ -147,6 +151,7 @@
                         <button id="submit-contact-btn" type="submit">Request Callback</button>
                        <small style="margin-top:10px;">By Submitting this form you are agreeing to allow us to use and store this data. We aim to be back in contact within 3 bussiness days. Thank you.</small>
                    </form>
+                   --}}
                </div>
            </div>
        </div>
@@ -158,16 +163,16 @@
                    <h2 class="section-header">Gallery</h2>
 
                    <div class="grid-container" style="padding-top:20px;width:100%;">
-                       <img class="grid-item" src="{{asset('/images/sh38hs93s8hs3s.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/8h3d89h489h89hws.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/8ed89e8389j3sjfhgg.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/90sj092js9vjajaaa.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/903hd09h89h566hdg.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/93d90390f8sasdff.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/s9j390djrfaaaaaw3.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/9jd-3940epqaloak.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/00h89he89h4ss3d.jpg')}}" alt="grease trap">
-                       <img class="grid-item" src="{{asset('/images/03890h894h5h5sd.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/sh38hs93s8hs3s.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/8h3d89h489h89hws.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/8ed89e8389j3sjfhgg.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/90sj092js9vjajaaa.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/903hd09h89h566hdg.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/93d90390f8sasdff.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/s9j390djrfaaaaaw3.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/9jd-3940epqaloak.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/00h89he89h4ss3d.jpg')}}" alt="grease trap">
+                       <img class="grid-item" width="500" src="{{asset('/images/03890h894h5h5sd.jpg')}}" alt="grease trap">
                    </div>
 
                </div>
