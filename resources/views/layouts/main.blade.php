@@ -21,7 +21,7 @@
     <title>GreaseCycle &trade;</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet"/>
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet"/>
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
