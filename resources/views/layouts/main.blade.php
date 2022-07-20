@@ -50,12 +50,12 @@
                 </a>
             </div>
             <nav class="page-links wrap-end algn-base">
-                <a class="page-link page-link" href="{{config('app.url')}}#home">Home</a>
-                <a class="page-link page-link" href="{{config('app.url')}}#about">About</a>
-                <a class="page-link page-link" href="{{config('app.url')}}#why">Why Us?</a>
-                <a class="page-link page-link" href="{{config('app.url')}}#pricing">Pricing</a>
-                <a class="page-link page-link" href="{{config('app.url')}}#contact">Contact</a>
-                <a class="page-link page-link" href="{{config('app.url')}}#gallery">Gallery</a>
+                <a class="page-link page-link" href="/#home">Home</a>
+                <a class="page-link page-link" href="/#about">About</a>
+                <a class="page-link page-link" href="/#why">Why Us?</a>
+                <a class="page-link page-link" href="/#pricing">Pricing</a>
+                <a class="page-link page-link" href="/#contact">Contact</a>
+                <a class="page-link page-link" href="/#gallery">Gallery</a>
             </nav>
         </div>
     </div>
